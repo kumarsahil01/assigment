@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import './Compare.css'
 const ComparePlayers = () => {
   const [username1, setUsername1] = useState('');
   const [username2, setUsername2] = useState('');
